@@ -1,0 +1,24 @@
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--the shadow comes from here-->
+    <item
+            android:bottom="-6dp"
+            android:drawable="@drawable/shadow_2145"
+            android:left="-6dp"
+            android:right="-6dp"
+            android:top="-6dp">
+
+    </item>
+
+    <item
+            android:bottom="-6dp"
+            android:left="-6dp"
+            android:right="-6dp"
+            android:top="-6dp">
+
+        <shape android:shape="rectangle" >
+            <solid android:color="#fff" />
+            <corners android:radius="20dp"></corners>
+        </shape>
+    </item>
+</layer-list>
